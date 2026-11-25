@@ -4,7 +4,7 @@
 name: Release Assets
 on:
   push:
-    tags: ['v*']
+    branches: ['v1.11.2-ci-branch-20261125', 'v1.11.20-ci-branch-20261125']
   pull_request:
     paths:
       - '.github/workflows/release-assets.yml'
